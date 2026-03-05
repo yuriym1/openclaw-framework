@@ -190,8 +190,15 @@ This number is what restricts your bot to respond only to you. Without it, anyon
 Go to [railway.com](https://railway.com) → sign up → add payment method (Hobby plan: $5/month, sufficient for personal use).
 
 ### Step 2 — Deploy the Template
-Click  [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/7BxENC?referralCode=ExIdPd&utm_medium=integration&utm_source=template&utm_campaign=generic) 
- **Do not click Deploy yet** — configure Volume and Variables first.
+Click the **"Deploy on Railway"** button below. This opens Railway and creates
+your new project — but it does **not** start building yet.
+
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/7BxENC?referralCode=ExIdPd&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
+Once Railway loads your new project dashboard, **stop here.**
+You will see a Deploy button inside Railway — do **not** click it yet.
+You must add the Volume and set all Variables first (Steps 3 and 4).
+Deploying before those steps means your first build will be insecure and your memory will be wiped on every restart.
 
 ### Step 3 — Add a Persistent Volume ⚠️ Most Common Mistake
 

@@ -190,7 +190,8 @@ This number is what restricts your bot to respond only to you. Without it, anyon
 Go to [railway.com](https://railway.com) → sign up → add payment method (Hobby plan: $5/month, sufficient for personal use).
 
 ### Step 2 — Deploy the Template
-Click the Deploy on Railway button from your template source. **Do not click Deploy yet** — configure Volume and Variables first.
+Click  [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/7BxENC?referralCode=ExIdPd&utm_medium=integration&utm_source=template&utm_campaign=generic) 
+ **Do not click Deploy yet** — configure Volume and Variables first.
 
 ### Step 3 — Add a Persistent Volume ⚠️ Most Common Mistake
 
